@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: darkgray;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    align-content: center;
+}
+
+nav{
+    background-color: orange;
+    width: 10%;
+    height: 350px;
+    float: left;
+}
+
+header{
+    background-color: aqua;
+    height: 50px;
+    width: 100%;
+}
+
+article{
+    background-color: aquamarine;
+    width: 60%;
+    height: 250px;
+
+}
+
+aside{
+    background-color: blueviolet;
+    width: 40%;
+    height: 250px;
+}
+
+footer{
+    background-color: chartreuse;
+    height: 50px;
+    width: 100%;
+}
